@@ -18,16 +18,16 @@
 //********** Setup ****************************************************************
 void setup()
 {
-   pinMode(ledPin, OUTPUT);
+    pinMode(2,OUTPUT);
 }
 
 //********** Loop *****************************************************************
 void loop()
 {
-     digitalWrite(ledPin, HIGH);  
-   delay(1000);        
-   digitalWrite(ledPin, LOW);  
-   delay(1000);     
+     digitalWrite(2, HIGH);
+  delay(500);    
+  digitalWrite(2,LOW);
+  delay(500);
 }
 
 //********** Funcions *************************************************************
